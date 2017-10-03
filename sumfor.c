@@ -1,5 +1,6 @@
 #include<stdio.h>
-void main()
+#include<conio.h>
+int main()
 {
 int i,sum=0,n;
 printf("enter the range:");
@@ -9,5 +10,5 @@ for(i=1;i<=n;i++)
 sum=sum+i;
 printf("the sum is:",sum);
 }
-getch();
+return(0);
 }
