@@ -2,22 +2,22 @@
 int main()
 {
   int minval,size,i,array[50];
-  printf(enter the size of elements in an array:");
+  printf("\nenter the size of elements in an array:");
   scanf("%d",&size);
-  printf("enter the numbers:");
-  for(i=1;i<size;++i)
+  printf("\nenter the numbers:");
+  for(i=0;i<size;++i)
   {
-    scanf(%d",&array[i]);
-    minva=array[0];
+    scanf("%d",&array[i]);
   }
-  for(i=1;i<size;++i)
+   minval=array[0];
+  for(i=0;i<size;++i)
   {
     if(array[i]<minval)
     {
       minval=array[i];
       
     }
-  }
-printf("the min val is:",minval);
+ }
+printf("\nthe min val is:%d",minval);
 return 0;
 }
