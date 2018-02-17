@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  int minval,size,i,array[50];
+  int min,size,i,array[50];
   printf("\nenter the size of elements in an array:");
   scanf("%d",&size);
   printf("\nenter the numbers:");
@@ -9,15 +9,15 @@ int main()
   {
     scanf("%d",&array[i]);
   }
-   minval=array[0];
+   min=array[0];
   for(i=0;i<size;++i)
   {
-    if(array[i]<minval)
+    if(array[i]<min)
     {
-      minval=array[i];
+      min=array[i];
       
     }
  }
-printf("\nthe min val is:%d",minval);
+printf("\nthe min val is:%d",min);
 return 0;
 }
