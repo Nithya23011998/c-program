@@ -2,7 +2,7 @@
 int main()
 {
 char s[100];
-int i,flag=0,n,j;
+int i,temp=0,n,j;
 printf("enter the string:");
 scanf("%s",&s);
 n=strlen(s);
@@ -11,11 +11,11 @@ for(i=0;i<n;i++)
 for(j=i+1;j<n;j++)
 if(s[i]==s[j])
 {
-flag=1;
+temp=1;
 break;
 }
 }
-if(flag==1)
+if(temp==1)
 {
 printf("it is not a isogram");
 }
